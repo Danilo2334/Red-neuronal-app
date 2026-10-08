@@ -1,0 +1,86 @@
+{
+  "columnas_entrada": [
+    "demanda_mw",
+    "temperatura_c",
+    "humedad_pct",
+    "viento_kmh",
+    "radiacion_wm2",
+    "precipitacion_mm",
+    "precio_kwh",
+    "hora",
+    "dia_semana",
+    "fin_semana",
+    "festivo",
+    "mes",
+    "periodo_madrugada",
+    "periodo_mañana",
+    "periodo_tarde",
+    "periodo_noche"
+  ],
+  "columnas_numericas": [
+    "demanda_mw",
+    "temperatura_c",
+    "humedad_pct",
+    "viento_kmh",
+    "radiacion_wm2",
+    "precipitacion_mm",
+    "precio_kwh",
+    "hora",
+    "dia_semana",
+    "fin_semana",
+    "festivo",
+    "mes"
+  ],
+  "categorias_periodo": [
+    "madrugada",
+    "mañana",
+    "tarde",
+    "noche"
+  ],
+  "scaler_x": {
+    "scale": [
+      0.001630815897193366,
+      0.012868356710848025,
+      0.01010407194099222,
+      0.00892140244446427,
+      0.0009571942721494755,
+      0.04549590536851683,
+      0.0126598303582732,
+      0.043478260869565216,
+      0.16666666666666666,
+      1.0,
+      1.0,
+      0.09090909090909091,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "min": [
+      -0.5122718896263802,
+      0.29622957148372153,
+      -0.010407194099221988,
+      0.0,
+      0.0,
+      0.0,
+      0.05279149259399924,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.09090909090909091,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "scaler_y": {
+    "scale": [
+      0.001630815897193366
+    ],
+    "min": [
+      -0.5122718896263802
+    ]
+  }
+}
